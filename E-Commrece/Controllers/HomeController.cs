@@ -10,6 +10,7 @@ namespace E_Commrece.Controllers
     {
         public ActionResult Index()
         {
+            //ViewBag.Datetime = DateTime.Now.ToUniversalTime();
             return View();
         }
 
